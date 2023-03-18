@@ -4,14 +4,18 @@ import {
     UilUsersAlt,
     UilPackage,
     UilChart,
+    UilSignOutAlt,
   } from "@iconscout/react-unicons";
   
   
   import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
+  import { keyboard } from "@testing-library/user-event/dist/keyboard";
+  
   
   import img1 from "../Images/img1.png";
   import img2 from "../Images/img2.png";
   import img3 from "../Images/img3.png";
+  
   
   export const SidebarData = [
     {

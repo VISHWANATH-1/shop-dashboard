@@ -32,7 +32,7 @@
   width: 97%;
   background: var(--glass);
   border-radius: 2rem;
-  gap: 15px;
+  gap: 10px;
   grid-template-columns: 11rem auto 20rem;
   overflow: hidden;
 }
@@ -48,4 +48,7 @@
   .AppGlass{
     grid-template-columns: 1fr;
   } 
+  .AppGlass::-webkit-scrollbar{
+    display: none;
+  }
 }

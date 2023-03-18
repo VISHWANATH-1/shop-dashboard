@@ -21,3 +21,8 @@
       width: 90%;
     }
   }
+  @media screen and (max-width: 768px){
+    .Cards{
+      width: 90%;
+    }
+  }
